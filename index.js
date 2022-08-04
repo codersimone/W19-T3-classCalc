@@ -33,7 +33,6 @@ function getDifference() {
     result = Calc.subtraction(num1, num2); // перезаписываю объект класса и обращаюсь к нему через класс и статический метод с функцией вычитания
     document.getElementById('out').innerHTML = 'Результат: ' + result; //вывожу результат в новый инпут
 }
-
 //функция получения результата умножения чисел (произведение)
 function getProduct() {
     const num1 = getValue('number1');
